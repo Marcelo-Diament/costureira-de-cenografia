@@ -1,14 +1,338 @@
-/*
-Theme Name: Costureira de Cenografia
-Theme URI: http://djament.com.br/themes/costureira-de-cenografia
-Author: Djament.co
-Author URI: http://djament.co/
-Description: Tema desenvolvido sob medida para um ateliê de costura para cenografia e figurino (com foco em teatro, musical, filmes publicitários e cinema).
-Version: 0.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: portfolio one-column
-Text Domain: costureira-de-cenografia
+/**
+ * Theme Name: Costureira de Cenografia
+ * Theme URI: http://djament.com.br/themes/costureira-de-cenografia
+ * Author: Djament.co
+ * Author URI: http://djament.co/
+ * Description: Tema desenvolvido sob medida para um ateliê de costura para cenografia e figurino (com foco em teatro, musical, filmes publicitários e cinema).
+ * Version: 0.1
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: portfolio one-column
+ * Text Domain: costureira-de-cenografia
+ * 
+ * Suggestions are also welcome. Feel free to use it for study and development purposes, please, mention djament.co at the credits. Thanks and enjoy.
+ */
 
-Suggestions are also welcome. Feel free to use it for study and development purposes, please, mention djament.co at the credits. Thanks and enjoy.
-*/
+/** #.# TABLE OF CONTENTS
+ * 
+ * 	#.# 1. HTML TAGS
+ *
+ *		1.1. Default Style
+ *		1.2. Text | Headings
+ *		1.3. Text | Emphasis
+ *		1.4. Text | General Text
+ *		1.5. Tables
+ *		1.6. Forms
+ *		1.7. Media
+ *		1.8. Lists
+ *		1.9. Containerss
+ *		1.10. Other Tags
+ */
+
+/* 1.1. Default Style */
+* {
+	scroll-behavior: smooth;
+}
+body {
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 40px;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 18px;
+}
+/* 1.2. Headings */
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+summary {
+	
+}
+/* 1.3. Emphasis */
+a {
+
+}
+b,
+strong {
+
+}
+caption {
+
+}
+cite{
+
+}
+code {
+
+}
+i,
+em {
+
+}
+mark {
+
+}
+pre {
+
+}
+q {
+
+}
+small {
+
+}
+sub {
+
+}
+sup {
+
+}
+track {
+
+}
+u {
+
+}
+/* 1.4. General Text */
+abbr {
+
+}
+address {
+
+}
+bdi {
+
+}
+bdo {
+
+}
+del {
+
+}
+hr {
+
+}
+ins {
+
+}
+p {
+	
+}
+s {
+
+}
+span {
+
+}
+wbr {
+
+}
+/* 1.5. Tables */
+col {
+
+}
+colgroup {
+
+}
+table {
+
+}
+tbody {
+
+}
+td {
+
+}
+tfoot {
+
+}
+th {
+
+}
+thead {
+
+}
+tr {
+
+}
+/* 1.6. Forms */
+button {
+
+}
+dialog {
+
+}
+datalist {
+
+}
+fieldset {
+
+}
+input {
+
+}
+form {
+
+}
+kbd {
+
+}
+label {
+
+}
+legend {
+
+}
+meter {
+
+}
+optgroup {
+
+}
+option {
+
+}
+select {
+
+}
+textarea {
+
+}
+/* 1.7. Media */
+area {
+
+}
+audio {
+
+}
+canvas {
+
+}
+figcaption {
+
+}
+figure {
+
+}
+img {
+
+}
+picture {
+
+}
+svg {
+
+}
+video {
+
+}
+/* 1.8. Lists */
+dd {
+
+}
+dl {
+
+}
+dt {
+
+}
+li {
+
+}
+ol {
+
+}
+ul {
+
+}
+/* 1.9. Containers */
+article {
+
+}
+aside {
+
+}
+blockquote {
+
+}
+details{
+
+}
+div {
+
+}
+embed {
+
+}
+footer {
+
+}
+header {
+
+}
+iframe {
+
+}
+main {
+
+}
+map {
+
+}
+nav {
+
+}
+section {
+
+}
+/* 1.10. Other tags */
+dfn {
+
+}
+object {
+
+}
+output {
+
+}
+param {
+
+}
+samp{
+
+}
+source{
+
+}
+template {
+
+}
+time {
+
+}
+var {
+
+}
+/* DESKTOP SCREENS */
+@media only screen and (min-width: 48em) {
+	body {
+		padding: 0;
+		font-size: 16px;
+	}
+}
